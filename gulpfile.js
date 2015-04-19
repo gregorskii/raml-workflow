@@ -49,7 +49,7 @@ gulp.task('apiyaml', ['rlint'], function() {
     .pipe(gulp.dest(API_DEST));
 });
 
-gulp.task('watch', ['apidoc'], function() {
+gulp.task('serve', ['apidoc'], function() {
 
   setTimeout(function() {
       gulp.start('browserSync');
