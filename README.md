@@ -25,7 +25,7 @@ Run: *gulp apidoc*
 
 Run: *gulp serve*
 
-**Listing with Fancy Output:**
+**Linting with Fancy Output:**
 
 Run: *gulp rlint*
 
