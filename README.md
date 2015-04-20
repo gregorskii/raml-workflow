@@ -9,7 +9,8 @@ Took a bit of running around the web to get a good RAML workflow. Hope this help
 * **Install**: raml2md globaly: npm i -g raml2md
 * **Run**: npm install
 
-Create your RAML file as api/api.raml. Output will be in /output for MD and HTML.
+Create your RAML file as api/api.raml OR symlink your current raml folder (if stored in another repo).
+Output will be in /output for MD and HTML.
 
 ### Tasks
 
