@@ -1,4 +1,5 @@
 node_modules
-api
+api/*
+!api/.gitkeep
 out/*
 !out/.gitkeep
