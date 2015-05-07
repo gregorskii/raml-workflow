@@ -57,6 +57,7 @@ gulp.task('serve', ['apidoc'], function() {
 
   global.watch = true;
   gulp.watch(RAML_BLOB, ['apidoc']);
+  gulp.watch('./api/**/*.{json}', ['apidoc']);
   gulp.watch('./out/static/docs/api/*.html', function() {
       browserSync.reload();
   });
